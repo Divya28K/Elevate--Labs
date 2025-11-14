@@ -1,0 +1,123 @@
+/* Reset & Layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+}
+
+.container {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form */
+#todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+#task-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#add-btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#add-btn:hover {
+  background: #0056b3;
+}
+
+/* Task Lists */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 5px solid #007bff;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+li.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+  border-left-color: green;
+  background: #e0ffe0;
+}
+
+.task-text {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.remove-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.remove-btn:hover {
+  background: #b02a37;
+}
+
+.done-radio {
+  cursor: pointer;
+}
+
+/* Completed Tasks Toggle */
+.completed-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#toggle-completed {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#toggle-completed:hover {
+  background: #5a6268;
+}
+
+/* Collapsible List */
+#completed-list.hidden {
+  display: none;
+}
