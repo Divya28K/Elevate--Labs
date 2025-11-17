@@ -1,0 +1,25 @@
+{
+  "name": "task-3",
+  "version": "1.0.0",
+  "description": "Task 3: A simple REST API to manage a list of books using Node.js and Express with GET, POST, PUT, and DELETE endpoints.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests available\""
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest-api",
+    "books-api",
+    "crud",
+    "task-3",
+    "elevate-labs"
+  ],
+  "author": "Divya K",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
+
