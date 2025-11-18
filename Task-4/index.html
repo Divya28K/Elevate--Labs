@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website with Hamburger Menu</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">MyWebsite</div>
+    <nav>
+      <ul id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <!-- Added extra menu item -->
+        <li><a href="#">Blog</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        &#9776;
+      </div>
+    </nav>
+  </header>
+
+<main>
+  <section class="hero">
+    <h1>Welcome to My Responsive Website</h1>
+    <p>This website is mobile-friendly using CSS media queries and a hamburger menu.</p>
+    <p>We provide high-quality web solutions for students, developers, and professionals.</p>
+    <button>Get Started</button>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <h2>Web Design Tips</h2>
+      <p>Learn how to design clean and responsive layouts using HTML, CSS, and Flexbox.</p>
+      <p>Extra info: This card covers basic UI/UX principles for beginners.</p>
+    </div>
+
+    <div class="card">
+      <h2>Responsive Development</h2>
+      <p>Understand how to use media queries to make your website mobile-friendly.</p>
+      <p>Extra info: Includes examples for breakpoints, images, and fonts.</p>
+    </div>
+
+    <div class="card">
+      <h2>JavaScript Essentials</h2>
+      <p>Master DOM manipulation, event listeners, and simple animations.</p>
+      <p>Extra info: Perfect for students learning frontend development.</p>
+    </div>
+
+    <!-- Useful extra card -->
+    <div class="card">
+      <h2>Free Learning Resources</h2>
+      <p>Access top platforms like MDN Web Docs, W3Schools, and FreeCodeCamp.</p>
+      <p>Extra info: These resources help you practice coding with live examples.</p>
+    </div>
+  </section>
+</main>
+
+  <footer>
+    <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+    <p>Designed by DivyaKasturi</p>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("nav-links");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("show");
+    });
+  </script>
+
+</body>
+</html>
