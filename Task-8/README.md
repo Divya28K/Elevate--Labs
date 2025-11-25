@@ -22,19 +22,20 @@
 • Built with **Bootstrap 5 CDN** (no installation required).  
 
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 simple-blog/
-│── index.html # Main blog page
-|
-│── README.md # Project documentation
+
+
+│── index.html 
+
+
+│── README.md 
 
 
 ## ⚡ Steps to Run
 
 1. Clone or download this repository.  
-   
-   git clone https://github.com/Divya28K/Task-8.git
 
 2. Open the project folder in VS Code (or any editor).
 
